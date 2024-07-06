@@ -4,6 +4,7 @@ Project Overview
 
 In this AdventureWorks Power BI project I aims to create an interactive business intelligence dashboard for AdventureWorks, a fictional manufacturing company. This project utilizes Microsoft Power BI to transform raw data into insightful visualizations, enabling stakeholders to make data-driven decisions. The focus areas include sales performance, financial metrics, product analysis, and customer demographics.
 
+
 Objectives
 
 Sales Analysis:
@@ -24,15 +25,23 @@ Customer Demographics:
 Analyze customer data to understand demographics, purchasing behavior, and preferences.
 Segment customers based on various criteria for targeted marketing efforts.
 
+
 Data Sources
 
 The project uses data from the AdventureWorks database, which includes:
+
 Calendar Data : Date
+
 Customer Data : CustomerKey, Prefix, FirstName, LastName, BirthDate, MaritalStatus, Gender, EmailAddress, AnnualIncome, TotalChildren, EducationLevel, Occupation, HomeOwner
+
 Product Categories Data : ProductCategoryKey, CategoryName
+
 Product Subcategories Data : ProductSubcategoryKey, SubcategoryName, ProductCategoryKey
+
 Product Data : ProductKey, ProductSubcategoryKey, ProductSKU, ProductName, ModelName, ProductDescription, ProductColor, ProductSize, ProductStyle, ProductCost, ProductPrice
+
 Sales Data : OrderDate, StockDate, OrderNumber, ProductKey, CustomerKey, TerritoryKey, OrderLineItem, OrderQuantity
+
 Territory Data : SalesTerritoryKey,Region, Country, Continent
 
 
