@@ -27,7 +27,7 @@ Segment customers based on various criteria for targeted marketing efforts.
 Data Sources
 
 The project uses data from the AdventureWorks database, which includes:
-Calendar Data :
+Calendar Data : Date
 Customer Data : CustomerKey, Prefix, FirstName, LastName, BirthDate, MaritalStatus, Gender, EmailAddress, AnnualIncome, TotalChildren, EducationLevel, Occupation, HomeOwner
 Product Categories Data : ProductCategoryKey, CategoryName
 Product Subcategories Data : ProductSubcategoryKey, SubcategoryName, ProductCategoryKey
